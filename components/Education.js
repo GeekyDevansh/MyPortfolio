@@ -39,9 +39,9 @@ const Education = ({darkMode}) => {
   return (
     <>
       <motion.div id='education' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.5}}  className={`  md:w-9/12 mx-auto my-10 ${darkMode?'bg-[#121212]':'bg-white'}`}>
-        <h1 className={`font-semibold hidden md:block text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10`}>
+        <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold hidden md:block text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10`}>
           Education
-        </h1>
+        </motion.h1>
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.5}}  className="h-full hidden md:block">
           <Chrono
             items={items}

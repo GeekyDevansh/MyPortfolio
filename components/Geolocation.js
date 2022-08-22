@@ -205,7 +205,7 @@ const Geolocation = () => {
         transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95] }}
         className="absolute md:right-32 md:top-52 ml-5 md:ml-0 top-20 text-white font-extrabold md:text-8xl text-6xl md:w-7/12"
       >
-        Hi, <br /> I'm <span className="text-cyan-200"> Devansh Khullar</span>,{" "}
+        Hi, <br /> I&apos;m <span className="text-cyan-200"> Devansh Khullar</span>,{" "}
         <br /> A web developer <br />
         <motion.button
           initial={{ y: 100, opacity: 0 }}

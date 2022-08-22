@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import Image from "next/image";
+import {motion} from 'framer-motion';
 
 const SlickSlider = ({darkMode}) => {
 
@@ -30,7 +31,7 @@ const SlickSlider = ({darkMode}) => {
 
 <div id='skills' className={`w-8/12 mx-auto ${darkMode?'bg-[#121212]':'bg-white'}`} >
 
-<h1 className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10 mt-10`}>Skills</h1>
+<motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10 mt-10`}>Skills</motion.h1>
 </div>
 
 <Slider {...settingsLg} className= {`${darkMode?'text-gray-100':'text-gray-900'} overflow-x-hidden hidden md:block`}>

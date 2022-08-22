@@ -14,7 +14,7 @@ const Footer = ({darkMode}) => {
             <span>Get connected with me on social networks:</span>
           </div>
           <div className="flex justify-center">
-            <a href="https://www.facebook.com/devansh.khullar.71/" target='_blank' className=" cursor-[url('/pointer.png'),_pointer] mr-6 text-gray-600">
+            <a href="https://www.facebook.com/devansh.khullar.71/" target='_blank' rel="noreferrer" className=" cursor-[url('/pointer.png'),_pointer] mr-6 text-gray-600">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -33,7 +33,7 @@ const Footer = ({darkMode}) => {
             </a>
            
            
-            <a href="https://www.instagram.com/khullar_devansh/" target='_blank' className=" cursor-[url('/pointer.png'),_pointer] mr-6 text-gray-600">
+            <a href="https://www.instagram.com/khullar_devansh/" target='_blank' rel="noreferrer" className=" cursor-[url('/pointer.png'),_pointer] mr-6 text-gray-600">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -50,7 +50,7 @@ const Footer = ({darkMode}) => {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/devansh-khullar/" target='_blank' className="mr-6 cursor-[url('/pointer.png'),_pointer] text-gray-600">
+            <a href="https://www.linkedin.com/in/devansh-khullar/" target='_blank' rel="noreferrer" className="mr-6 cursor-[url('/pointer.png'),_pointer] text-gray-600">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -67,7 +67,7 @@ const Footer = ({darkMode}) => {
                 ></path>
               </svg>
             </a>
-            <a href="https://github.com/GeekyDevansh" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600">
+            <a href="https://github.com/GeekyDevansh" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600">
               <svg
                 aria-hidden="true"
                 focusable="false"

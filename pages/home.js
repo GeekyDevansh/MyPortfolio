@@ -9,12 +9,12 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { ScrollToTop } from "../components/ScrollToTop";
 import Head from "next/head";
+import Image from "next/image";
+// import "lottie-interactive/dist/lottie-interactive.js";
 
 
 const slider = ({darkMode}) => {
-  React.useEffect(() => {
-    import("lottie-interactive/dist/lottie-interactive.js");
-  });
+  
 
   return (
     <>
@@ -22,16 +22,12 @@ const slider = ({darkMode}) => {
       <title>Devansh Khullar | Web Developer</title>
     </Head>
     {/* <Navbar/> */}
-      <div className="flex justify-center">
-        <div className="md:w-1/3 w-8/12">
-          <lottie-interactive
-            path="/hello.json"
-            interaction="play-on-show"
-            loop
-          />
+      {/* <div className="flex justify-center">
+        <div className=" ">
+          <Image src='/hello.gif' alt='hello' width={500} height={500} />
           
         </div>
-      </div >
+      </div > */}
       <About darkMode={darkMode}/>
       <Experience darkMode={darkMode}/>
       <Education darkMode={darkMode}/>

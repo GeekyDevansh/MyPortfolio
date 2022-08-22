@@ -13,9 +13,9 @@ const Contact = ({darkMode}) => {
         className={`w-10/12 mx-auto ${darkMode?'bg-[#121212]':'bg-white'}`}
         id="contact"
       >
-        <h1 className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center`}>
+        <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center`}>
           Contact Me
-        </h1>
+        </motion.h1>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -36,7 +36,7 @@ const Contact = ({darkMode}) => {
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label
                 className="block uppercase tracking-wide text-gray-500 text-xs font-bold mb-2"
-                for="grid-first-name"
+                htmlFor="grid-first-name"
               >
                 First Name
               </label>
@@ -53,7 +53,7 @@ const Contact = ({darkMode}) => {
             <div className="w-full md:w-1/2 px-3">
               <label
                 className="block uppercase tracking-wide text-gray-500 text-xs font-bold mb-2"
-                for="grid-last-name"
+                htmlFor="grid-last-name"
               >
                 Last Name
               </label>
@@ -68,7 +68,7 @@ const Contact = ({darkMode}) => {
             <div className="w-full px-3">
               <label
                 className="block uppercase tracking-wide text-gray-500 text-xs font-bold mb-2"
-                for="grid-password"
+                htmlFor="grid-password"
               >
                 E-mail*
               </label>
@@ -86,7 +86,7 @@ const Contact = ({darkMode}) => {
             <div className="w-full px-3">
               <label
                 className="block uppercase tracking-wide text-gray-500 text-xs font-bold mb-2"
-                for="grid-password"
+                htmlFor="grid-password"
               >
                 Message
               </label>

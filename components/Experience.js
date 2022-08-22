@@ -18,7 +18,7 @@ const Experience = ({darkMode}) => {
             <motion.a 
               initial={{opacity:0,x:-100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2,delay:1.5}}
               href="https://www.propreturns.com/"
-              target='_blank'
+              target='_blank' rel="noreferrer"
               className=" hidden cursor-[url('/pointer.png'),_pointer] md:flex justify-center"
             >
               {darkMode?(<Image
@@ -37,7 +37,7 @@ const Experience = ({darkMode}) => {
             <motion.a 
               initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.75}}
               href="https://www.propreturns.com/"
-              target='_blank'
+              target='_blank' rel="noreferrer"
               className="md:hidden cursor-[url('/pointer.png'),_pointer] flex justify-center"
             >
               {darkMode?(<Image
@@ -77,7 +77,7 @@ const Experience = ({darkMode}) => {
           <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-100':'text-gray-700'}`}>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} >
               Developed reusable components for the marketplace product using{" "}
-              <b> NextJS </b> and <b>TailwindCSS</b> and saved the user's
+              <b> NextJS </b> and <b>TailwindCSS</b> and saved the user&apos;s
               inquiries to <b>MongoDB</b>.
             </motion.li>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.5}} className="md:mt-0 mt-2">
@@ -100,7 +100,7 @@ const Experience = ({darkMode}) => {
           <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-100':'text-gray-700'}`}>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.25}} >
               Developed reusable components for the marketplace product using{" "}
-              <b> NextJS </b> and <b>TailwindCSS</b> and saved the user's
+              <b> NextJS </b> and <b>TailwindCSS</b> and saved the user&apos;s
               inquiries to <b>MongoDB</b>.
             </motion.li>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.5}} className="md:mt-0 mt-2">
@@ -121,7 +121,7 @@ const Experience = ({darkMode}) => {
         </div>
         <motion.div initial={{opacity:0,x:-100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2}} className="mt-5 " >  
 
-        <a  href="https://drive.google.com/file/d/1Uz7mrjHVdvaLUlVrLpd6rbBLrpLBx19v/view" target='_blank' className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]"> View Certificate</a>
+        <a  href="https://drive.google.com/file/d/1Uz7mrjHVdvaLUlVrLpd6rbBLrpLBx19v/view" target='_blank' rel="noreferrer" className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]"> View Certificate</a>
         </motion.div>
       </motion.div>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto" >

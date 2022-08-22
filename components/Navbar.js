@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {motion} from 'framer-motion';
+import Link from 'next/link';
 
 const Navbar = ({ darkMode, handleOnClick }) => {
 
@@ -10,11 +11,11 @@ const Navbar = ({ darkMode, handleOnClick }) => {
         <div className="  container w-9/12 mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <motion.div initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1.5}} >
 
-          <a  href='/' className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
-            {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}
+          <Link  href='/' className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
+          <a>  {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}</a>
            
             
-          </a>
+          </Link>
           </motion.div>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <motion.div initial={{opacity:0,y:-50}} animate={{opacity:1,y:0}} transition={{duration:1}} >
@@ -103,12 +104,13 @@ const Navbar = ({ darkMode, handleOnClick }) => {
       <header className="text-gray-500 md:hidden sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 z-10 body-font">
         <div className="p-5">
           <motion.div  initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1.5}}>
-
-          <a href='/' className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
+            <Link href='/' >
+          <a className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
             {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}
            
             
           </a>
+            </Link>
           </motion.div>
           
           <motion.button

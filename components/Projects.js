@@ -7,17 +7,17 @@ const Projects = ({darkMode}) => {
   return (
     <>
        <div id='projects' className={`w-8/12 mx-auto mb-10 md:mt-20 mt-5 ${darkMode?'bg-[#121212]':'bg-white'}`}>
-        <h1 className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10`}>
+        <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center mb-10`}>
           Projects
-        </h1>
+        </motion.h1>
         <div className='md:grid md:grid-cols-2 md:gap-y-20 md:gap-x-20 ' >
             <motion.div initial={{y:500,opacity:0}} whileHover={{scale:1.2}} whileInView={{y:0,opacity:1}} transition={{duration:0.3}} className='drop-shadow-lg'  >
             <Image src='/moda.png' width={1000} height={500} className='rounded-xl' />
             <div className='flex' >
             <span className={`${darkMode?'text-gray-400':'text-gray-900'} md:mb-0 mb-10  font-semibold`} >Moda Online Shopping</span>
             <div className='flex absolute right-0 ' >
-          <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://moda-online-shopping.vercel.app/" target='_blank'>  <span className='h-' > <Image src='/link.png' alt='link' width={16} height={16} /> </span> </a>
-            <a href="https://github.com/GeekyDevansh/Moda-Online-Shopping" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
+          <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://moda-online-shopping.vercel.app/" target='_blank' rel="noreferrer">  <span className='h-' > <Image src='/link.png' alt='link' width={16} height={16} /> </span> </a>
+            <a href="https://github.com/GeekyDevansh/Moda-Online-Shopping" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -49,9 +49,9 @@ const Projects = ({darkMode}) => {
             <div className={`${darkMode?'text-gray-400':'text-gray-900'} md:mb-0 mb-10 font-semibold`} >रक्तBANK</div>
             <div className='flex absolute right-0 ' >
 
-           <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://raktbank.xyz/" target='_blank'> <span> <Image src='/link.png' alt='link' width={16} height={16} /></span> </a> 
+           <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://raktbank.xyz/" target='_blank' rel="noreferrer"> <span> <Image src='/link.png' alt='link' width={16} height={16} /></span> </a> 
            
-           <a href="https://github.com/GeekyDevansh/RaktBank-" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
+           <a href="https://github.com/GeekyDevansh/RaktBank-" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -79,8 +79,8 @@ const Projects = ({darkMode}) => {
             <div className='flex' >
             <span className={`${darkMode?'text-gray-400':'text-gray-900'} md:mb-0 mb-10 font-semibold`} >MemoriesApp</span>
             <div className='flex absolute right-0 ' >
-            <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://my-memories-app123.netlify.app/" target='_blank'> <span> <Image src='/link.png' alt='link' width={16} height={16} /> </span></a>
-            <a href="https://github.com/GeekyDevansh/MemoriesApp-Client" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
+            <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://my-memories-app123.netlify.app/" target='_blank' rel="noreferrer"> <span> <Image src='/link.png' alt='link' width={16} height={16} /> </span></a>
+            <a href="https://github.com/GeekyDevansh/MemoriesApp-Client" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -105,8 +105,8 @@ const Projects = ({darkMode}) => {
             <div className='flex' >
             <span className={`${darkMode?'text-gray-400':'text-gray-900'} md:mb-0 mb-10 font-semibold`} >VideoChat App</span>
             <div className='flex absolute right-0 ' >
-            <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://video-chat-app-14.netlify.app/" target='_blank' > <span> <Image src='/link.png' alt='link' width={16} height={16} /> </span></a>
-            <a href="https://github.com/GeekyDevansh/VideoChat-App-Client" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
+            <a className=" px-2 cursor-[url('/pointer.png'),_pointer]" href="https://video-chat-app-14.netlify.app/" target='_blank' rel="noreferrer" > <span> <Image src='/link.png' alt='link' width={16} height={16} /> </span></a>
+            <a href="https://github.com/GeekyDevansh/VideoChat-App-Client" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -132,7 +132,7 @@ const Projects = ({darkMode}) => {
             <span className={`${darkMode?'text-gray-400':'text-gray-900'} md:mb-0 font-semibold`} >NewsApp</span>
             <div className='flex absolute right-0 ' >
             
-            <a href="https://github.com/GeekyDevansh/NewsApp" target='_blank' className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
+            <a href="https://github.com/GeekyDevansh/NewsApp" target='_blank' rel="noreferrer" className="cursor-[url('/pointer.png'),_pointer] text-gray-600 px-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
