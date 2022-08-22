@@ -211,7 +211,7 @@ const Geolocation = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 2 }}
-          className=" text-lg hover:text-cyan-200 cursor-[url('/pointer.png'),_pointer]"
+          className=" text-lg mb-2 hover:text-cyan-200 cursor-[url('/pointer.png'),_pointer]"
           onClick={handleOnClick}
         >
           Click here to know more about me{" "}

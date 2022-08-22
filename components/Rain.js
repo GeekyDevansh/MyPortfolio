@@ -12,7 +12,7 @@ const Rain = () => {
           
           
 
-          Hey visitor! Make sure to carry an umbrella with you as its cloudy outside ;)
+          Hey visitor! Make sure to carry an umbrella with you as its raining outside ;)
         
         </div>
     </div>

@@ -12,7 +12,7 @@ const Thunderstorm = () => {
           
           
 
-          Hey visitor! Make sure to carry an umbrella with you as its cloudy outside ;)
+          Hey visitor! Avoid standing under a tree as there is a thunderstorm outside ;)
         
         </div>
     </div>

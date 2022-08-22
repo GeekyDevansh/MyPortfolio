@@ -12,7 +12,7 @@ const Clear = () => {
           
           
 
-          Hey visitor! Make sure to carry an umbrella with you as its cloudy outside ;)
+          Hey visitor! I hope you are enjoying the clear and sunny day at your place ;)
         
         </div>
     </div>

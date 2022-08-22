@@ -12,7 +12,7 @@ const Snow = () => {
           
           
 
-          Hey visitor! Make sure to carry an umbrella with you as its cloudy outside ;)
+          Hey visitor! It&apos;s time to take out your winter boots as its snowing outside ;)
         
         </div>
     </div>
