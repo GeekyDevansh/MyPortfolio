@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'DM Sans', sans-serif;
+    }
+  }
+
+html{
+    cursor:url('/cursor2.png'),auto;
+    scroll-behavior: smooth;
+  }
+html::-webkit-scrollbar{
+  width:.7vw;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #06b6d4;
+    border-radius: 100vw;
+}
+html::-webkit-scrollbar-thumb:hover{
+  background-color: #67e8f9;
+  border-radius: 100vw;
+}
+html::-webkit-scrollbar-track{
+  background-color: #555;
+  border-radius: 100vw;
+  margin-block:.1em;
+  margin-right:.1em;
+}
