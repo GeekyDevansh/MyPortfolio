@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import SlickSlider from "../components/SlickSlider";
 import Navbar from "../components/Navbar";
 import About from '../components/About';
@@ -9,11 +9,19 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { ScrollToTop } from "../components/ScrollToTop";
 import Head from "next/head";
-import Image from "next/image";
+import {motion} from 'framer-motion';
 // import "lottie-interactive/dist/lottie-interactive.js";
 
 
 const slider = ({darkMode}) => {
+  
+  useEffect(() => {
+    
+    import("lottie-interactive/dist/lottie-interactive.js");
+  
+    
+  }, [])
+  
   
 
   return (
@@ -22,12 +30,16 @@ const slider = ({darkMode}) => {
       <title>Devansh Khullar | Web Developer</title>
     </Head>
     {/* <Navbar/> */}
-      {/* <div className="flex justify-center">
-        <div className=" ">
-          <Image src='/hello.gif' alt='hello' width={500} height={500} />
-          
+       <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.2,delay:1}} className="flex justify-center">
+        <div className="w-1/3 h-1/3" >
+        <lottie-interactive
+              path="/hello.json"
+              autoplay
+              loop
+          />
         </div>
-      </div > */}
+          
+      </motion.div > 
       <About darkMode={darkMode}/>
       <Experience darkMode={darkMode}/>
       <Education darkMode={darkMode}/>
