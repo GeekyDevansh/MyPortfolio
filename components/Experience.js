@@ -124,12 +124,20 @@ const Experience = ({darkMode}) => {
         <a  href="https://drive.google.com/file/d/1Uz7mrjHVdvaLUlVrLpd6rbBLrpLBx19v/view" target='_blank' rel="noreferrer" className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]"> View Certificate</a>
         </motion.div>
       </motion.div>
-      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto" >
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto hidden md:block" >
         <Image src='/somil.png' width={1169} height={299} />
       </motion.div>
-      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.}} className="w-8/12 mx-auto mt-10" >
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto mt-10 hidden md:block" >
         <Image src='/syed.png' width={1169} height={299} />
       </motion.div>
+
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="relative w-80 h-24 mx-auto md:hidden block" >
+        <Image src='/somil.png' layout='fill' />
+      </motion.div>
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className=" relative w-80 h-24 mx-auto mt-10 md:hidden block" >
+        <Image src='/syed.png' layout='fill' />
+      </motion.div>
+
     </>
   );
 };
