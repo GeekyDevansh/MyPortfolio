@@ -13,7 +13,7 @@ import {motion} from 'framer-motion';
 // import "lottie-interactive/dist/lottie-interactive.js";
 
 
-const slider = ({darkMode}) => {
+const Home = ({darkMode}) => {
   
   useEffect(() => {
     
@@ -52,4 +52,4 @@ const slider = ({darkMode}) => {
   );
 };
 
-export default slider;
+export default Home;
