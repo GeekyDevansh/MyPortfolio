@@ -103,7 +103,7 @@ const Navbar = ({ darkMode, handleOnClick }) => {
       
       <header className="text-gray-500 md:hidden sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 z-10 body-font">
         <div className="p-5">
-          <motion.div  initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1.5}}>
+          <motion.div  initial={{opacity:0,x:-50}} animate={{opacity:1,x:0}} transition={{duration:1.5}}>
             <Link href='/' >
           <a className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
             {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}
