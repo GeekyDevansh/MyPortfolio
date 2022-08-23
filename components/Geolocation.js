@@ -223,7 +223,7 @@ const Geolocation = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-        className="md:hidden block  absolute bottom-14 left-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
+        className="md:hidden block  absolute bottom-5 left-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
       >
         {message ? message : <Loading />}
       </motion.div>
@@ -232,7 +232,7 @@ const Geolocation = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-          className="md:hidden block absolute bottom-14 right-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
+          className="md:hidden block absolute bottom-5 right-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
         >
           {dist ? <Distance dist={dist} /> : <Loading />}
         </motion.div>
