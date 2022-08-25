@@ -96,12 +96,18 @@ const SlickSlider = ({ darkMode }) => {
             <div className="ml-5 font-semibold">ReactJs</div>
           </div>
           <div className="mt-2">
-            <Image
+            {darkMode?(<Image
+              src="/next-dark.png"
+              height={96}
+              width={96}
+              className="grayscale hover:grayscale-0 duration-200"
+            />):(<Image
               src="/nextjs.png"
               height={96}
               width={96}
               className="grayscale hover:grayscale-0 duration-200"
-            />
+            />)}
+            
             <div className="ml-5 font-semibold">NextJs</div>
           </div>
           <div className="mt-2">
@@ -186,13 +192,18 @@ const SlickSlider = ({ darkMode }) => {
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
-          <div className="mt-2">
-            <Image
+          <div className="">
+          {darkMode?(<Image
+              src="/next-dark.png"
+              height={72}
+              width={72}
+              className="grayscale hover:grayscale-0 duration-200"
+            />):(<Image
               src="/nextjs.png"
               height={72}
               width={72}
               className="grayscale hover:grayscale-0 duration-200"
-            />
+            />)}
           </div>
           <div>
             <Image

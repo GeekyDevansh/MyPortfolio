@@ -9,10 +9,19 @@ const About = ({darkMode}) => {
 
 <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold ${darkMode?'text-white':'text-gray-900'} text-6xl text-center md:mt-10 md:mb-10 mb-5`} >About Me</motion.h1>
 
-<motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className={`text-xl font-lg ${darkMode?'text-gray-100':'text-gray-900'}`} >
+<motion.p className={`text-xl font-lg ${darkMode?'text-gray-100':'text-gray-900'}`} >
+  <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} >
+
 I&apos;m a Full Stack Developer located in India. Currently I&apos;m in my Pre-final year, pursuing my Bachelors in Technology (B.Tech) from <b> NIT Jalandhar</b>. I have a serious passion for developing and contributing to projects that solve a problem for a better future. <br /> <br />
+  </motion.div>
+  <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}}>
+
 Motivated and ambitious person, problem solver and a person with high attention to detail. <br /> <br />
+  </motion.div>
+  <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.5}}>
+
 Fan of pop music, love to play badminton and a public speaker.
+  </motion.div>
 </motion.p>
 <br />
 <div className='flex justify-between' >

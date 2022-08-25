@@ -49,7 +49,7 @@ const Contact = ({darkMode}) => {
               {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
             </div>
             <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value="https://devansh-khullar.vercel.app/home" />
+            <input type="hidden" name="_next" value="https://devanshkhullar.xyz/home" />
             <div className="w-full md:w-1/2 px-3">
               <label
                 className="block uppercase tracking-wide text-gray-500 text-xs font-bold mb-2"
