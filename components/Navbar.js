@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import {motion} from 'framer-motion';
 import Link from 'next/link';
+import {BsFillSunFill} from 'react-icons/bs';
+import {BsFillMoonFill} from 'react-icons/bs';
 
 const Navbar = ({ darkMode, handleOnClick }) => {
 
@@ -90,12 +92,17 @@ const Navbar = ({ darkMode, handleOnClick }) => {
           <motion.button
             initial={{opacity:0,x:100}} animate={{opacity:1,x:0}} transition={{duration:1.5}} 
             onClick={handleOnClick}
-            className="inline-flex items-center border-2 p-2 border-gray-300 focus:outline-none rounded-full text-base mt-4 md:mt-0 cursor-[url('/pointer.png'),_pointer]"
+            className="inline-flex items-center border-2 p-2 border-gray-300 focus:outline-none rounded-full  mt-4 md:mt-0 cursor-[url('/pointer.png'),_pointer]"
           >
-            {darkMode ? (
-              <Image src="/sun.png" width={24} height={24} />
+            {/* {darkMode ? (
+              <Image src={sun} width={24} height={24} />
             ) : (
-              <Image src="/moon.png" width={24} height={24} />
+              <Image src={moon} width={24} height={24} />
+            )} */}
+            {darkMode ? (
+              <BsFillSunFill size={24}/>
+            ) : (
+              <BsFillMoonFill size={24}/>
             )}
           </motion.button>
         </div>
@@ -119,9 +126,9 @@ const Navbar = ({ darkMode, handleOnClick }) => {
             className="inline-flex items-center absolute top-0 right-0 m-5 border-2 p-2 border-gray-300 focus:outline-none rounded-full text-base mt-4 md:mt-0 cursor-[url('/pointer.png'),_pointer]"
           >
             {darkMode ? (
-              <Image src="/sun.png" width={24} height={24} />
+              <BsFillSunFill size={24}/>
             ) : (
-              <Image src="/moon.png" width={24} height={24} />
+              <BsFillMoonFill size={24} />
             )}
           </motion.button>
         </div>
