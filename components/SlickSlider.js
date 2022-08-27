@@ -24,6 +24,7 @@ const SlickSlider = ({ darkMode }) => {
     cssEase: "linear",
   };
 
+
   return (
     <>
       <div
