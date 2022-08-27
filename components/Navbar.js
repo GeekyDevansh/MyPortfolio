@@ -14,7 +14,7 @@ const Navbar = ({ darkMode, handleOnClick }) => {
           <motion.div initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1.5}} >
 
           <Link  href='/' className=" cursor-[url('/pointer.png'),_pointer] flex title-font font-medium items-center mb-4 md:mb-0">
-          <a>  {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}</a>
+          <a className="cursor-[url('/pointer.png'),_pointer]" >  {darkMode?( <Image src='/dk-dark.png' width={150} height={30} />):( <Image src='/dk.png' width={150} height={30} />)}</a>
            
             
           </Link>
