@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
-import { BiArrowFromBottom } from 'react-icons/bi'
+import { useEffect, useState } from 'react';
+import { BiArrowFromBottom } from 'react-icons/bi';
+import {motion} from 'framer-motion';
 
 // import { classNames } from '/utils'
 

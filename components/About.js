@@ -12,11 +12,10 @@ const About = ({darkMode}) => {
 <motion.p className={`text-xl font-lg ${darkMode?'text-gray-100':'text-gray-900'}`} >
   <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} >
 
-I&apos;m a Full Stack Developer located in India. Currently I&apos;m in my Pre-final year, pursuing my Bachelors in Technology (B.Tech) from <b> NIT Jalandhar</b>. I have a serious passion for developing and contributing to projects that solve a problem for a better future. <br /> <br />
+I&apos;m a Full Stack Developer located in India. Currently I&apos;m in my Pre-final year, pursuing my Bachelors in Technology (B.Tech) from <b> NIT Jalandhar</b>. I am passionate for developing and contributing to projects that solve a problem for a better future. <br /> <br />
   </motion.div>
   <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}}>
-
-Motivated and ambitious person, problem solver and a person with high attention to detail. <br /> <br />
+Motivated, ambitious, a person with high aptitude for problem solving who pays high attention to detail. <br /> <br />
   </motion.div>
   <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.5}}>
 
