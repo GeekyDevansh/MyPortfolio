@@ -98,20 +98,20 @@ const Experience = ({darkMode}) => {
         </div>
         <div className="md:hidden block mx-2">
           <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-100':'text-gray-700'}`}>
-            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.25}} >
+            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} >
               Developed reusable components for the marketplace product using{" "}
               <b> NextJS </b> and <b>TailwindCSS</b> and saved the user&apos;s
               inquiries to <b>MongoDB</b>.
             </motion.li>
-            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.5}} className="md:mt-0 mt-2">
+            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="md:mt-0 mt-2">
               Automated watermarking of uploaded images on <b>AWS S3 bucket</b>{" "}
               through lambda function written in <b>NodeJS</b>.
             </motion.li>
-            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.75}} className="md:mt-0 mt-2">
+            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="md:mt-0 mt-2">
               <b>Analyzed</b> and <b>Optimized</b> pages for best performance,
               improving the overall performance by <b>36%</b>.
             </motion.li>
-            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:2}} className="md:mt-0 mt-2">
+            <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="md:mt-0 mt-2">
               Collaborated in <b>Search Engine Optimization</b> tasks such as{" "}
               <b>implementing breadcrumbs</b>, <b>adding schema markup</b> and{" "}
               <b>sitemap</b> which increased the overall <b>SEO score</b> to{" "}
