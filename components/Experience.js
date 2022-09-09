@@ -131,10 +131,10 @@ const Experience = ({darkMode}) => {
         <Image src='/syed.png' width={1169} height={299} />
       </motion.div>
 
-      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="relative object-cover w-80 h-24 mx-auto md:hidden block" >
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.5}} className="relative object-cover w-80 h-24 mx-auto md:hidden block" >
         <Image src='/somil.png' layout='fill' />
       </motion.div>
-      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className=" relative object-cover w-80 h-24 mx-auto mt-10 md:hidden block" >
+      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.5}} className=" relative object-cover w-80 h-24 mx-auto mt-10 md:hidden block" >
         <Image src='/syed.png' layout='fill' />
       </motion.div>
 
