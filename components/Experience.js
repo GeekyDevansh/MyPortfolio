@@ -26,11 +26,15 @@ const Experience = ({darkMode}) => {
                 alt="PropReturns"
                 width={184.5}
                 height={55}
+                placeholder='blur'
+                blurDataURL="/logo1.png"
               />):(<Image
                 src="/propreturns.png"
                 alt="PropReturns"
                 width={184.5}
                 height={55}
+                placeholder='blur'
+                blurDataURL="/propreturns.png"
               />)}
               
             </motion.a>{" "}
@@ -45,11 +49,15 @@ const Experience = ({darkMode}) => {
                 alt="PropReturns"
                 width={184.5}
                 height={55}
+                blurDataURL="/logo1.png"
+                placeholder='blur'
               />):(<Image
                 src="/propreturns.png"
                 alt="PropReturns"
                 width={184.5}
                 height={55}
+                blurDataURL="/propreturns.png"
+                placeholder='blur'
               />)}
               
             </motion.a>{" "}
@@ -125,17 +133,17 @@ const Experience = ({darkMode}) => {
         </motion.div>
       </motion.div>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto hidden md:block" >
-        <Image src='/somil.png' width={1169} height={299} />
+        <Image src='/somil.png' width={1169} height={299} placeholder='blur' blurDataURL="/somil.png" />
       </motion.div>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} className="w-8/12 mx-auto mt-10 hidden md:block" >
-        <Image src='/syed.png' width={1169} height={299} />
+        <Image src='/syed.png' width={1169} height={299} placeholder='blur' blurDataURL="/syed.png" />
       </motion.div>
 
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.5}} className="relative object-cover w-80 h-24 mx-auto md:hidden block" >
-        <Image src='/somil.png' layout='fill' />
+        <Image src='/somil.png' layout='fill' placeholder='blur' blurDataURL="/somil.png" />
       </motion.div>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:0.5}} className=" relative object-cover w-80 h-24 mx-auto mt-10 md:hidden block" >
-        <Image src='/syed.png' layout='fill' />
+        <Image src='/syed.png' layout='fill' placeholder='blur' blurDataURL="/syed.png" />
       </motion.div>
 
     </>

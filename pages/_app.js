@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/index.css";
 import {useState,useEffect} from 'react'
 import {motion} from 'framer-motion';
+import { SkeletonTheme} from "react-loading-skeleton";
 
 
 
@@ -36,7 +37,10 @@ function MyApp({ Component, pageProps,router}) {
     },
   }} >
     {router.pathname!='/'&&(<Navbar darkMode={darkMode} handleOnClick={handleOnClick}/>)}
+    <SkeletonTheme baseColor="#d8d8d8">
+
   <Component darkMode={darkMode} {...pageProps} />
+    </SkeletonTheme>
   </motion.div>
   </> 
 }

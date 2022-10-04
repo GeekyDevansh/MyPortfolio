@@ -55,6 +55,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/html.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/html.png"
               className="grayscale hover:grayscale-0 duration-200 "
             />
             <div className="ml-7 font-semibold">HTML</div>
@@ -65,6 +67,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/css.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/css.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-8 font-semibold">CSS</div>
@@ -74,6 +78,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/javascript.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/javascript.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-3 font-semibold">JavaScript</div>
@@ -83,6 +89,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/typescript.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/typescript.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-3 font-semibold">TypeScript</div>
@@ -92,6 +100,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/react.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/react.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-5 font-semibold">ReactJs</div>
@@ -101,11 +111,15 @@ const SlickSlider = ({ darkMode }) => {
               src="/next-dark.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/next-dark.png"
               className="grayscale hover:grayscale-0 duration-200"
             />):(<Image
               src="/nextjs.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/nextjs.png"
               className="grayscale hover:grayscale-0 duration-200"
             />)}
             
@@ -116,6 +130,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/tailwindcss.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/tailwindcss.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-1 font-semibold">TailwindCSS</div>
@@ -125,6 +141,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/nodejs.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/nodejs.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-5 font-semibold">NodeJs</div>
@@ -134,6 +152,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/mongodb.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/mongodb.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-3 font-semibold">MongoDB</div>
@@ -143,6 +163,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/aws.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/aws.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-8 font-semibold">AWS</div>
@@ -152,6 +174,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/git.png"
               height={96}
               width={96}
+              placeholder='blur'
+              blurDataURL="/git.png"
               className="grayscale hover:grayscale-0 duration-200"
             />
             <div className="ml-9 font-semibold">Git</div>
@@ -166,6 +190,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/html.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/html.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
@@ -174,6 +200,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/css.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/css.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
@@ -182,6 +210,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/javascript.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/javascript.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
@@ -190,6 +220,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/react.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/react.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
@@ -198,11 +230,15 @@ const SlickSlider = ({ darkMode }) => {
               src="/next-dark.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/next-dark.png"
               className="grayscale hover:grayscale-0 duration-200"
             />):(<Image
               src="/nextjs.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/nextjs.png"
               className="grayscale hover:grayscale-0 duration-200"
             />)}
           </div>
@@ -211,6 +247,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/nodejs.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/nodejs.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>
@@ -219,6 +257,8 @@ const SlickSlider = ({ darkMode }) => {
               src="/mongodb.png"
               height={72}
               width={72}
+              placeholder='blur'
+              blurDataURL="/mongodb.png"
               className="grayscale pt-2 hover:grayscale-0 duration-500"
             />
           </div>

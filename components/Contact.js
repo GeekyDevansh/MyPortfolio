@@ -27,7 +27,7 @@ const Contact = ({darkMode}) => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }} className="md:w-1/2 w-full">
           {" "}
-          {darkMode?( <Image src="/contact-dark.gif" width={500} height={500} />):( <Image src="/contact.gif" width={500} height={500} />)}
+          {darkMode?( <Image src="/contact-dark.gif" width={500} height={500} placeholder="blur" blurDataURL="/contact-dark.gif" />):( <Image src="/contact.gif" width={500} height={500} placeholder="blur" blurDataURL="/contact.gif" />)}
          {" "}
         </motion.div>
 
@@ -101,10 +101,10 @@ const Contact = ({darkMode}) => {
                </p> */}
             </div>
           </div>
-          <div className="md:flex md:items-center">
-            <div className="md:w-1/3">
+          <div className=" w-full">
+            <div>
               <button
-                className="shadow bg-cyan-200 text-gray-500 hover:bg-teal-400 focus:shadow-outline focus:outline-none hover:text-white py-2 px-4 rounded cursor-[url('/pointer.png'),_pointer]"
+                className=" w-full shadow bg-teal-400 hover:text-gray-700 hover:bg-cyan-200 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded cursor-[url('/pointer.png'),_pointer]"
                 type="submit"
               >
                 Send

@@ -33,6 +33,8 @@ const Projects = ({ darkMode }) => {
               src="/moda.png"
               width={1000}
               height={500}
+              placeholder='blur'
+              blurDataURL="/moda.png"
               className="rounded-xl"
             />
             <div className="flex">
@@ -58,6 +60,8 @@ const Projects = ({ darkMode }) => {
                       alt="link"
                       width={16}
                       height={16}
+                      placeholder='blur'
+                      blurDataURL="/link.png"
                     />{" "}
                   </span>{" "}
                 </a>
@@ -98,6 +102,8 @@ const Projects = ({ darkMode }) => {
               src="/raktbank.png"
               width={1000}
               height={500}
+              placeholder='blur'
+              blurDataURL="/raktbank.png"
               className="rounded-xl"
             />
 
@@ -119,7 +125,8 @@ const Projects = ({ darkMode }) => {
                   {" "}
                   <span>
                     {" "}
-                    <Image src="/link.png" alt="link" width={16} height={16} />
+                    <Image src="/link.png" alt="link" width={16} height={16} 
+                    placeholder='blur' blurDataURL="/link.png" />
                   </span>{" "}
                 </a>
 
@@ -160,6 +167,8 @@ const Projects = ({ darkMode }) => {
               src="/memories.png"
               width={1000}
               height={500}
+              placeholder='blur'
+              blurDataURL='/memories.png'
               className="rounded-xl"
             />
             <div className="flex">
@@ -185,6 +194,8 @@ const Projects = ({ darkMode }) => {
                       alt="link"
                       width={16}
                       height={16}
+                      placeholder='blur'
+                      blurDataURL="/link.png"
                     />{" "}
                   </span>
                 </a>
@@ -224,6 +235,8 @@ const Projects = ({ darkMode }) => {
               src="/videochat.png"
               width={1000}
               height={500}
+              placeholder='blur'
+              blurDataURL="/videochat.png"
               className="rounded-xl"
             />
             <div className="flex">
@@ -249,6 +262,8 @@ const Projects = ({ darkMode }) => {
                       alt="link"
                       width={16}
                       height={16}
+                      placeholder='blur'
+                      blurDataURL="/link.png"
                     />{" "}
                   </span>
                 </a>
@@ -288,6 +303,8 @@ const Projects = ({ darkMode }) => {
               src="/newsapp_pic.png"
               width={1000}
               height={500}
+              placeholder='blur'
+              blurDataURL="/newsapp_pic.png"
               className="rounded-xl"
             />
             <div className="flex">
