@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps,router}) {
   return<>
   {/* <Navbar darkMode={darkMode} setDarkMode={setDarkMode}  />
   <Filters darkMode={darkMode}  /> */}
-  <motion.div key={router.route} className={`${darkMode?'bg-[#121212]':'bg-white'}`} initial="pageInitial" animate="pageAnimate" variants={{
+  <motion.div key={router.route} className={`${darkMode?'bg-black':'bg-white'}`} initial="pageInitial" animate="pageAnimate" variants={{
     pageInitial: {
       opacity:0
       

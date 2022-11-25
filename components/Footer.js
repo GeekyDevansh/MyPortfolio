@@ -8,7 +8,7 @@ const Footer = ({darkMode}) => {
   return (
     <>
     <div>
-      <footer className={`text-center lg:text-left ${darkMode?'bg-[#121212]':'bg-gray-100'} ${darkMode?'text-gray-500':'text-gray-600'}  mt-20`}>
+      <footer className={`text-center lg:text-left ${darkMode?'bg-black':'bg-gray-100'} ${darkMode?'text-gray-500':'text-gray-600'}  mt-20`}>
         <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
           <div className="mr-12 hidden lg:block">
             <span>Get connected with me on social networks:</span>
@@ -250,7 +250,7 @@ const Footer = ({darkMode}) => {
         </div>
         <div className={`text-center p-6 ${darkMode?'bg-[#121212]':' bg-gray-200'}`}>
           <span>© 2022 Copyright</span> <br />
-         <span>Made with {darkMode?(<Image src='/heart-dark.gif' width={20} height={20}/>):(<Image src='/heart.gif' width={20} height={20}/>)} by Devansh Khullar </span>
+         <span>Made with {darkMode?(<Image src='/heart-dark.gif' width={20} height={20} placeholder="blur" blurDataURL="/heart-dark.gif" />):(<Image src='/heart.gif' width={20} height={20} placeholder="blur" blurDataURL="/heart.gif" />)} by Devansh Khullar </span>
         </div>
       </footer>
       </div>

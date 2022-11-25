@@ -6,11 +6,11 @@ const About = ({darkMode}) => {
 
   return (
     <>
-        <motion.div id='about' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} className={`w-9/12 mx-auto ${darkMode?'bg-[#121212]':'bg-white'}`} >
+        <motion.div id='about' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} className={`w-9/12 mx-auto ${darkMode?'bg-black':'bg-white'}`} >
 
 <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold ${darkMode?'text-white':'text-gray-900'} text-6xl text-center md:mt-10 md:mb-10 mb-5`} >About Me</motion.h1>
 
-<motion.p className={`text-xl font-lg ${darkMode?'text-gray-100':'text-gray-900'}`} >
+<motion.p className={`text-xl font-lg ${darkMode?'text-gray-300':'text-gray-900'}`} >
   <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} >
 
 I&apos;m a Full Stack Developer located in India. Currently I&apos;m in my Pre-final year, pursuing my Bachelors in Technology (B.Tech) from <b> NIT Jalandhar</b>. I am passionate for developing and contributing to projects that solve a problem for a better future. <br /> <br />

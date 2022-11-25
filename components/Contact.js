@@ -10,7 +10,7 @@ const Contact = ({darkMode}) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className={`w-10/12 mx-auto ${darkMode?'bg-[#121212]':'bg-white'}`}
+        className={`w-10/12 mx-auto ${darkMode?'bg-black':'bg-white'}`}
         id="contact"
       >
         <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}} className={`font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center`}>

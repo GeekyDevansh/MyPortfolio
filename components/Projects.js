@@ -8,7 +8,7 @@ const Projects = ({ darkMode }) => {
       <div
         id="projects"
         className={`w-8/12 mx-auto mb-10 md:mt-20 mt-5 ${
-          darkMode ? "bg-[#121212]" : "bg-white"
+          darkMode ? "bg-black" : "bg-white"
         }`}
       >
         <motion.h1

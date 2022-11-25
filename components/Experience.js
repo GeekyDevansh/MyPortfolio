@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 const Experience = ({darkMode}) => {
   return (
     <>
-      <motion.div id='experience' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} className={`w-9/12 mx-auto my-10 ${darkMode?'bg-[#121212]':'bg-white'}`}>
+      <motion.div id='experience' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} className={`w-9/12 mx-auto my-10 ${darkMode?'bg-black':'bg-white'}`}>
         <motion.h1 initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1.2,delay:1.2}} className={`hidden md:block font-semibold text-6xl ${darkMode?'text-white':'text-gray-900'}  text-center md:mb-10 mb-6`}>
           Experience
         </motion.h1 >
@@ -71,10 +71,10 @@ const Experience = ({darkMode}) => {
               SDE Intern{" "}
             </motion.h1>
           </div>
-          <motion.div initial={{opacity:0,x:100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2,delay:2}} className={`md:mt-5 mt-2 md:flex-none md:justify-start md:block hidden justify-center text-lg font-semibold  ${darkMode?'text-gray-100':'text-gray-500'}`}>
+          <motion.div initial={{opacity:0,x:100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2,delay:2}} className={`md:mt-5 mt-2 md:flex-none md:justify-start md:block hidden justify-center text-lg font-semibold  ${darkMode?'text-gray-300':'text-gray-500'}`}>
             June 2022 - July 2022
           </motion.div>
-          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.25}} className={`md:mt-5 mt-2 md:hidden md:justify-start flex justify-center text-lg font-semibold  ${darkMode?'text-gray-100':'text-gray-500'}`}>
+          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.25}} className={`md:mt-5 mt-2 md:hidden md:justify-start flex justify-center text-lg font-semibold  ${darkMode?'text-gray-300':'text-gray-500'}`}>
             June 2022 - July 2022
           </motion.div>
         </div>
@@ -82,7 +82,7 @@ const Experience = ({darkMode}) => {
           Tasks/Roles :
         </motion.h1>
         <div className="hidden md:block mx-2">
-          <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-100':'text-gray-700'}`}>
+          <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-300':'text-gray-700'}`}>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1.2}} >
               Developed reusable components for the marketplace product using{" "}
               <b> NextJS </b> and <b>TailwindCSS</b> and saved the user&apos;s
@@ -105,7 +105,7 @@ const Experience = ({darkMode}) => {
           </ul>
         </div>
         <div className="md:hidden block mx-2">
-          <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-100':'text-gray-700'}`}>
+          <ul className={`list-disc mx-10 mt-5 text-lg font-lg ${darkMode?'text-gray-300':'text-gray-700'}`}>
             <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2,delay:1}} >
               Developed reusable components for the marketplace product using{" "}
               <b> NextJS </b> and <b>TailwindCSS</b> and saved the user&apos;s

@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 
 const SlickSlider = ({ darkMode }) => {
   var settingsLg = {
-    slidesToShow: 6,
+    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 9000,
+    speed: 6000,
     pauseOnHover: false,
     cssEase: "linear",
   };
 
   var settingsSm = {
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 8000,
+    speed: 5000,
     pauseOnHover: false,
     cssEase: "linear",
   };
@@ -29,7 +29,7 @@ const SlickSlider = ({ darkMode }) => {
     <>
       <div
         id="skills"
-        className={`w-8/12 mx-auto ${darkMode ? "bg-[#121212]" : "bg-white"}`}
+        className={`w-8/12 mx-auto ${darkMode ? "bg-black" : "bg-white"}`}
       >
         <motion.h1
           initial={{ opacity: 0, scale: 0 }}
@@ -47,7 +47,7 @@ const SlickSlider = ({ darkMode }) => {
         <Slider
           {...settingsLg}
           className={`${
-            darkMode ? "text-gray-100" : "text-gray-900"
+            darkMode ? "text-gray-300" : "text-gray-900"
           }`}
         >
           <div className="mt-2">
