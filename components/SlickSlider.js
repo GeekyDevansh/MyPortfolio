@@ -19,7 +19,7 @@ const SlickSlider = ({ darkMode }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 5000,
+    speed: 4000,
     pauseOnHover: false,
     cssEase: "linear",
   };
