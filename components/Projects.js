@@ -366,7 +366,7 @@ const Projects = ({ darkMode }) => {
             {darkMode && <svg
               stroke="white"
               fill="white"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               height="24"
               width="24"
@@ -379,7 +379,7 @@ const Projects = ({ darkMode }) => {
             {!darkMode && <svg
               stroke="black"
               fill="black"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               height="24"
               width="24"
