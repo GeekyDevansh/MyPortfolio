@@ -185,7 +185,7 @@ const Geolocation = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-        className="hidden md:block absolute top-28 left-32  border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-2/12 "
+        className="hidden md:block absolute top-[15%] left-[8%]  border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-2/12 "
       >
         {message ?message :<LoadingLg />  }
       </motion.div>
@@ -194,7 +194,7 @@ const Geolocation = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-          className="hidden md:block absolute bottom-28 left-32  border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-2/12 "
+          className="hidden md:block absolute bottom-[15%] left-[8%]  border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-2/12 "
         >
           {dist ? <Distance dist={dist} /> : <LoadingLg />}
         </motion.div>
@@ -204,7 +204,7 @@ const Geolocation = () => {
         initial={{ y: 40, x: 50, opacity: 0 }}
         animate={{ y: 0, x: 0, opacity: 1 }}
         transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95] }}
-        className="absolute md:right-32 md:top-52 ml-5 md:ml-0 top-10 text-white font-extrabold md:text-8xl text-6xl md:w-7/12"
+        className="absolute md:right-[8%] md:top-[28%] ml-5 md:ml-0 top-[5%] text-white font-extrabold md:text-8xl text-6xl md:w-7/12"
       >
         Hi, <br /> I&apos;m <span className="text-cyan-200"> Devansh Khullar</span>,{" "}
         <br /> A web developer <br />
@@ -224,7 +224,7 @@ const Geolocation = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-        className="md:hidden block  absolute bottom-5 left-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
+        className="md:hidden block  absolute bottom-[3%] left-[5%] h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
       >
        {message ?message  :<LoadingSm /> }
       </motion.div>
@@ -233,7 +233,7 @@ const Geolocation = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
-          className="md:hidden block absolute bottom-5 right-5 h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
+          className="md:hidden block absolute bottom-[3%] right-[5%] h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
         >
           {dist ? <Distance dist={dist} /> : <LoadingSm />}
         </motion.div>

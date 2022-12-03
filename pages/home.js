@@ -31,7 +31,7 @@ const Home = ({darkMode}) => {
     </Head>
     {/* <Navbar/> */}
        <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.2,delay:1}} className="flex justify-center">
-        <div className="md:w-1/3 md:h-1/3 w-1/2 h-1/2" >
+        <div className="md:w-1/3 md:h-1/3 w-1/2 h-1/2 " >
         <lottie-interactive
               path="/hello.json"
               autoplay
