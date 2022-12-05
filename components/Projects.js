@@ -353,10 +353,11 @@ const Projects = ({ darkMode }) => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 500, opacity: 0 }}
+            initial={{y:100,opacity: 0 }}
             whileHover={{ scale: 1.2 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.3 }}
+            whileInView={{ y:0,opacity: 1 }}
+            transition={{ duration: 0.2 }}
+
             className={`md:flex md:justify-center md:items-center cursor-[url('/pointer.png'),_pointer] font-semibold ${darkMode?'text-white':'text-gray-900'} md:text-xl  drop-shadow-lg md:mt-0 my-10 text-lg `}
             onClick={() => {
               router.push("https://mac-os-iota.vercel.app/");
