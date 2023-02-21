@@ -26,10 +26,10 @@ Fan of pop music, love to play badminton and a public speaker.
 <br />
 <div className='flex justify-between' >
     <motion.div className='hidden md:block' initial={{opacity:0,x:-100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2}} >
-    <a href="https://drive.google.com/file/d/1umjYhyOaLjeg6zk-lYwofJFLjd0T-t8m/view?usp=sharing" target='_blank' rel="noreferrer"  className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]" >View My Resume.</a>
+    <a href="https://drive.google.com/file/d/14C900nYaivnkK1HAR1VSDbroaS1xj15A/view?usp=share_link" target='_blank' rel="noreferrer"  className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]" >View My Resume.</a>
     </motion.div>
     <motion.div className='md:hidden block' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.2}} >
-    <a href="https://drive.google.com/file/d/1umjYhyOaLjeg6zk-lYwofJFLjd0T-t8m/view?usp=sharing" target='_blank' rel="noreferrer"  className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]" >View My Resume.</a>
+    <a href="https://drive.google.com/file/d/14C900nYaivnkK1HAR1VSDbroaS1xj15A/view?usp=share_link" target='_blank' rel="noreferrer"  className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]" >View My Resume.</a>
     </motion.div>
     <motion.div className='hidden md:block' initial={{opacity:0,x:100}} whileInView={{opacity:1,x:0}} transition={{duration:1.2}}>
     <a href="#contact"  className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 cursor-[url('/pointer.png'),_pointer]" >Let&apos;s build something great.</a>
