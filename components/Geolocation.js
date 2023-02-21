@@ -203,7 +203,7 @@ const Geolocation = () => {
       <motion.div
         initial={{ y: 40, x: 50, opacity: 0 }}
         animate={{ y: 0, x: 0, opacity: 1 }}
-        transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95] }}
+        transition={{ duration: 1   }}
         className="absolute md:right-[8%] md:top-[28%] ml-5 md:ml-0 top-[5%] text-white font-extrabold md:text-8xl text-6xl md:w-7/12"
       >
         Hi, <br /> I&apos;m <span className="text-cyan-200"> Devansh Khullar</span>,{" "}
@@ -211,7 +211,7 @@ const Geolocation = () => {
         <motion.button
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 2 }}
+          transition={{ duration: 1, delay: 2 }}
           className=" text-lg mb-2 hover:text-cyan-200 cursor-[url('/pointer.png'),_pointer]"
           onClick={handleOnClick}
         >
@@ -223,7 +223,7 @@ const Geolocation = () => {
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
+        transition={{ duration: 1, delay: 1 }}
         className="md:hidden block  absolute bottom-[3%] left-[5%] h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
       >
        {message ?message  :<LoadingSm /> }
@@ -232,7 +232,7 @@ const Geolocation = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: [0.6, 0.01, -0.05, 0.95], delay: 1 }}
+          transition={{ duration: 1, delay: 1 }}
           className="md:hidden block absolute bottom-[3%] right-[5%] h-1/3 border-white border-2 rounded-xl p-2 bg-cyan-100 text-gray-900 w-5/12 "
         >
           {dist ? <Distance dist={dist} /> : <LoadingSm />}
