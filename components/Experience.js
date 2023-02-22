@@ -546,6 +546,7 @@ const Experience = ({ darkMode }) => {
       >
         <Image
           src="/somil.png"
+          alt="somil"
           width={1169}
           height={299}
           placeholder="blur"
@@ -560,6 +561,7 @@ const Experience = ({ darkMode }) => {
       >
         <Image
           src="/syed.png"
+          alt="syed"
           width={1169}
           height={299}
           placeholder="blur"
@@ -575,6 +577,7 @@ const Experience = ({ darkMode }) => {
       >
         <Image
           src="/somil.png"
+          alt="somil"
           layout="fill"
           placeholder="blur"
           blurDataURL="/somil.png"
@@ -588,6 +591,7 @@ const Experience = ({ darkMode }) => {
       >
         <Image
           src="/syed.png"
+          alt="syed"
           layout="fill"
           placeholder="blur"
           blurDataURL="/syed.png"
