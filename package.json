@@ -23,7 +23,7 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "tippy.js": "^6.3.7",
-    "tsparticles": "^2.2.3"
+    "tsparticles": "^2.9.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
