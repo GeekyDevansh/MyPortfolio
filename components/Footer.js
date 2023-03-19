@@ -250,7 +250,11 @@ const Footer = ({darkMode}) => {
         </div>
         <div className={`text-center p-6 ${darkMode?'bg-[#121212]':' bg-gray-200'}`}>
           <span>© 2022 Copyright</span> <br />
-         <span>Made with {darkMode?(<Image src='/heart-dark.gif' width={20} height={20} placeholder="blur" blurDataURL="/heart-dark.gif" />):(<Image src='/heart.gif' width={20} height={20} placeholder="blur" blurDataURL="/heart.gif" />)} by Devansh Khullar </span>
+          <div className=" text-center m-auto md:w-[17%] w-[65vw] " >
+
+         <span className="float-left" >Made with  </span> {darkMode?(<Image src='/heart-dark.gif' width={20} height={20}/>):(<Image src='/heart.gif' width={20} height={20}/>)}  <span className="float-right" > by Devansh Khullar  </span>
+          </div>
+          
         </div>
       </footer>
       </div>

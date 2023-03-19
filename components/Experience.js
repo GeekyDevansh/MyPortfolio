@@ -244,7 +244,7 @@ const Experience = ({ darkMode }) => {
               transition={{ duration: 1.2, delay: 0.8 }}
               className="md:mt-0 mt-2"
             >
-              Built <b> reusable components </b> for the client's marketing
+              Built <b> reusable components </b> for the client&apos;s marketing
               website using <b> NextJS </b> .
             </motion.li>
           </ul>
@@ -288,7 +288,7 @@ const Experience = ({ darkMode }) => {
               transition={{ duration: 1.2, delay: 0.8 }}
               className="md:mt-0 mt-2"
             >
-              Built <b> reusable components </b> for the client's marketing
+              Built <b> reusable components </b> for the client&apos;s marketing
               website using <b> NextJS </b> .
             </motion.li>
           </ul>
