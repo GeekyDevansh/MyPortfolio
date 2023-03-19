@@ -27,7 +27,7 @@ const Geolocation = () => {
   const particlesInit = useCallback(async (engine) => {
     // this adds the bundle to tsParticles
     await loadFull(engine);
-  });
+  },[]);
   const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
   }, []);
