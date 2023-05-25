@@ -38,7 +38,7 @@ const Projects = ({ darkMode }) => {
               width={1000}
               height={500}
               placeholder="blur"
-              blurDataURL="/moda.png"
+              blurDataURL="/matchmyservice.png"
               className="rounded-xl"
             />
             <div className="flex">

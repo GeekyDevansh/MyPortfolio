@@ -248,7 +248,7 @@ const Footer = ({darkMode}) => {
             </div>
           </div>
         </div>
-        <div className="text-center p-6 bg-gray-200">
+        <div className={`text-center p-6 ${darkMode?"bg-[#121212]":"bg-gray-200"}`}>
           <span>© 2022 Copyright</span> <br />
           <div className=" text-center m-auto md:w-[17%] w-[65vw] " >
 
